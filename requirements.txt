@@ -1,0 +1,58 @@
+# AI-Symp-Controller - Python Dependencies
+# Python 3.11 or above required
+
+# UI Framework
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+PyQt6-Multimedia>=6.6.0  # For video/audio playback
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Face AI and Emotion Detection
+deepface>=0.0.79  # Face analysis, emotion, age, gender detection
+tf-keras>=2.20.0  # Required for DeepFace with TensorFlow 2.20+
+fer>=22.5.0  # Facial Emotion Recognition (cross-validation) - REQUIRED for face_ai module
+dlib>=19.24.0  # Face landmarks and head pose estimation
+# Note: dlib requires C++ build tools on Windows
+# Alternative: Use pre-built wheel from https://github.com/sachadee/Dlib or conda
+insightface>=0.7.3  # Optional: Advanced face recognition backend
+
+# Data Visualization and Plotting
+matplotlib>=3.7.0
+
+# Media Processing (for PDF, video, audio support)
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0  # High-performance PDF rendering (recommended)
+pdf2image>=1.16.0  # Alternative PDF to image conversion (requires poppler-utils)
+# Note: PyMuPDF is preferred - faster and higher quality
+# For pdf2image: poppler-utils required on Windows
+# Download from: https://github.com/oschwartz10612/poppler-windows/releases/
+
+# System Resource Monitoring
+psutil>=5.9.0  # For RAM/CPU monitoring and resource management
+
+# PowerPoint Support (Windows)
+pywin32>=306; sys_platform == "win32"  # For PowerPoint PPT/PPTX support on Windows (optional)
+python-pptx>=0.6.23  # Alternative PowerPoint reading library (structure only, cannot render)
+
+# AI Timing - Voice Activity Detection (optional)
+SpeechRecognition>=3.10.0  # Speech recognition for voice activity detection
+pyaudio>=0.2.14  # Audio input for microphone (required for voice detection)
+# Note: pyaudio may require portaudio on Windows
+# Download from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+# Or use: pip install pipwin && pipwin install pyaudio
+# vosk>=0.3.45  # Alternative voice recognition (uncomment if preferred)
+
+# Async support for PyQt6
+qasync>=0.27.0  # Async event loop integration for PyQt6 (required for Content Automation)
+
+# Async HTTP client (required for Skyroom adapter)
+aiohttp>=3.9.0  # Async HTTP client for Skyroom API integration
+
+# Additional utilities (if needed for future development)
+# openpyxl>=3.1.0  # For Excel file handling if needed
+# requests>=2.31.0  # For HTTP requests if needed
+

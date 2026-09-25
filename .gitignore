@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Project-specific
+config.json
+profiles/
+assets/backups/*.json
+*.log
+*.bak
+*.dat
+assets/models/*.dat
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# OS
+Thumbs.db
+

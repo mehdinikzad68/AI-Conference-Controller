@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "updated_at": "2025-11-04T22:08:45.277441",
+  "content": [
+    {
+      "content_id": "d3ff3a24-563c-4df0-86de-24d987de5f1b",
+      "content_type": "video",
+      "file_info": {
+        "path": "D:/Project/Nigeb/1404/AI-Sampos/Media/Media/کلیپ قرآن- سرود ملی.mp4",
+        "size_bytes": 70625851,
+        "format": "mp4",
+        "mime_type": "video/mp4",
+        "checksum_md5": "",
+        "resolution": null,
+        "bitrate": null,
+        "codec": null,
+        "accessible": true,
+        "corrupted": false
+      },
+      "metadata": {
+        "title": "کلیپ قرآن- سرود ملی.mp4",
+        "description": "",
+        "duration_seconds": null,
+        "tags": [],
+        "author": null,
+        "created_at": "2025-11-04T22:08:45.229427",
+        "custom_fields": {}
+      },
+      "validation_status": "pending",
+      "validation_errors": [],
+      "created_at": "2025-11-04T22:08:45.277381",
+      "updated_at": "2025-11-04T22:08:45.277388"
+    }
+  ]
+}
